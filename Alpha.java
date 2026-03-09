@@ -1,0 +1,1 @@
+class Alpha{public static void main(String args[]){for(char r=65;r<=67;r++){for(char c=65;c<=67;c++){System.out.print(r+ " ");}System.out.println();}}}
