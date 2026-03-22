@@ -1,20 +1,14 @@
-package javafullstack;
+package com.javapackage1;
 
-public class methods {
-	public static void main(String [] args){
-		methods me=new methods();
-	    
-			int multiplication=me.multiplication(30,30);
-			System.out.println("mul:"+multiplication);
-            System.out.println(me.multiplication(30,30)); 			
-		
-			
-		}
+public class Methods {
+public static void main(String [] args) {
+	Methods me= new Methods();
+	me.multiplication(30,30);
 	
-		int multiplication(int num1,int num2 ) {
-			int mul=num1*num2;
-			return(mul);
-	    
-	}
-
+}
+int  multiplication(int a,int b) {
+	int mul=a*b;
+	System.out.println("multiplication:"+mul);
+ return mul;
+}
 }
