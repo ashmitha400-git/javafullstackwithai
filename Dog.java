@@ -1,32 +1,29 @@
-package javapractice1;
-
-interface Animal {
- public void sound();
-}
-
+package com.java.oops;
+interface Animal{
+	public void sound() ;
+		
 	
-class Dog implements Animal{
+}
+public class Dog implements Animal {
 	public static void main(String [] args) {
 		Dog d=new Dog();
 		d.sound();
-		Cat c=new Cat();
+		Cat  c=new Cat();
 		c.sound();
 		Bird b=new Bird();
 		b.sound();
-	
 	}
+public void sound() {
+	System.out.println("dog sound:bow-bow");
+}
+}
+class Cat implements Animal {
 	public void sound() {
-		System.out.println("bow-bow");
+		System.out.println("cat sound:meow-meow");
 	}
 }
-class Cat implements Animal{
-	public void sound() {
-		System.out.println("meow-meow");
-	}
-	}
 class Bird implements Animal{
 	public void sound() {
-		System.out.println("chrip-chrip");
+		System.out.println("bird sound:chrip-chrip");
 	}
 }
-
